@@ -5,6 +5,47 @@
   
 }
 
+/* The Modal (background) */
+.modal {
+    
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(230, 230, 230); /* Fallback color */
+    background-color: rgba(75, 73, 73, 0.4); /* Black w/ opacity */
+    text-align: center;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #b82d2d;
+    padding: 4px;
+    border: 3px solid rgb(0, 0, 0);
+    width: 10%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
 
 
 nav{
