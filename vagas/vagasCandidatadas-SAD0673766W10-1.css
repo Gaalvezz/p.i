@@ -10,7 +10,7 @@
      
      /* The Modal (background) */
      .modal {
-       
+         
          position: fixed; /* Stay in place */
          z-index: 1; /* Sit on top */
          left: 0;
@@ -27,7 +27,6 @@
        
        /* Modal Content */
        .modal-content {
-        display: none;
          background-color: #b82d2d;
          padding: 4px;
          border: 3px solid rgb(0, 0, 0);
@@ -577,6 +576,7 @@
          background-color: #ffffff;
          box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.41);
          width:90%;
+    
          border-radius: 10px;
          border: solid rgb(0, 0, 0);
          padding: 5px;
@@ -690,8 +690,8 @@
          cursor: pointer;
          
      }
-     .candidatar:hover{
-         background-color: rgb(82, 77, 77);
+     .button-andamento:hover{
+         background-color: black;
      }
      .desistir{
          background-color: rgb(255, 255, 255);
@@ -702,7 +702,7 @@
         
          cursor: pointer;
      }
-     .desistir:hover{
+     .button-desistir:hover{
          background-color: rgb(231, 128, 128);
      }
      
